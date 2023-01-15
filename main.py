@@ -93,8 +93,8 @@ def run_alex():
         speak("Goodbye")
         sys.exit()
     else:
-        print("Sorry, I haven't been taught how to respond to that.")
-        speak("Sorry, I haven't been taught how to respond to that.")
+        print("Sorry, I don't know what you mean!")
+        speak("Sorry, I don't know what you mean!")
 
 # while loop: Keeps alex on and listening for commands.
 while True:
